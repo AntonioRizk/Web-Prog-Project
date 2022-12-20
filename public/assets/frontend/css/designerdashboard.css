@@ -1,0 +1,30 @@
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-items: center;
+    /* width: 50px; */
+}
+
+.btn {
+    color: #fff;
+    background-color: #36455c;
+    /* border-color: #36455c; */
+}
+.updatedelete{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.updel{
+    width: 60px;
+    border-color: transparent;
+    color: white;
+    vertical-align: middle ;
+}
+.form-group{
+    margin-bottom:3%;
+}

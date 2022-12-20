@@ -1,0 +1,358 @@
+/*
+
+Product Admin CSS Template
+
+https://templatemo.com/tm-524-product-admin
+
+*/
+
+
+form .form-control {
+  border: 1px solid #ccd1eb;
+  color: #3b4781;
+  background-color: #ffffff;
+  
+}
+.color-control {
+  display: block;
+  
+}
+.tm-block {
+  padding: 40px;
+  -webkit-box-shadow: 1px 1px 5px 0 #455c71;
+  -moz-box-shadow: 1px 1px 5px 0 #455c71;
+  box-shadow: 1px 1px 5px 0 #455c71;
+  min-height: 350px;
+  height: 100%;
+  max-height: 450px;
+} 
+
+.tm-block-h-auto {
+  min-height: 1px;
+  max-height: none;
+  height: auto;
+}
+.tm-block-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+} 
+.textcolor{
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.tm-bg-primary-dark {
+  background-color: #2c303b;
+} 
+.add{
+  display:block;
+  padding:0.5em -20em 0.5em 1em;
+  border-radius:100px;
+  border:none;
+  font-size:2em;
+  position:relative;
+  background:#666EE8;
+  cursor:pointer;
+  height:2em;
+  width:10em;
+  overflow:hidden;
+  transition:transform 0.1s;
+  z-index:1;
+  
+}
+.add:hover{
+  transform:scale(1.1);
+}
+input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
+  width: 30%;
+}
+.createbutton{
+  padding-left: 40%;
+  padding-top: 30px;
+}
+.pretext{
+  color:#fff;
+  background:#666EE8;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+i{
+  margin-right:10px;
+}
+.round-6 {
+  border-radius: 70%;
+  background-color: #28D094 !important;
+  color: white;
+  border: none;
+ 
+  font-size: 10px;
+  height: 35px;
+  width: 40px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.round-7 {
+  border-radius: 10%;
+  background-color: #28D094 !important;
+  color: white;
+  border: none;
+ 
+  font-size: 20px;
+  height: 75px;
+  width: 80px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+ 
+}
+[type="file"] {
+  /* Style the color of the message that says 'No file chosen' */
+    color: #878787;
+  }
+  [type="file"]::-webkit-file-upload-button {
+    border-color: #1EC481 !important;
+    background-color: #28D094 !important;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    transition: all 1s ease;
+  }
+  
+  [type="file"]::-webkit-file-upload-button:hover {
+    background: #fff;
+    border: 2px solid #535353;
+    color: #000;
+  }
+  .submitbutton{
+    padding-left: 0px
+  }
+  .fs-wrap {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1;
+    width: 1015px;
+}
+
+.fs-label-wrap {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: default;
+}
+
+.fs-label-wrap,
+.fs-dropdown {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fs-label-wrap .fs-label {
+    padding: 6px 22px 6px 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.fs-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    margin: auto;
+    transition: ease-in 0.15s;
+}
+
+.fs-open .fs-arrow {
+    transform: rotate(-180deg);
+}
+
+.fs-dropdown {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 1015px;
+    margin-top: 5px;
+    z-index: 1000;
+}
+
+.fs-dropdown .fs-options {
+    max-height: 200px;
+    overflow: auto;
+}
+
+.fs-search input {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+    padding: 6px 0;
+    width: 100%;
+}
+
+.fs-option,
+.fs-search,
+.fs-optgroup-label {
+    padding: 6px 8px;
+    border-bottom: 1px solid #eee;
+    cursor: default;
+}
+
+.fs-option:last-child {
+    border-bottom: none;
+}
+
+.fs-search {
+    padding: 0 8px;
+}
+
+.fs-no-results {
+    padding: 6px 8px;
+}
+
+.fs-option {
+    cursor: pointer;
+    word-break: break-all;
+}
+
+.fs-option.disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.fs-option.hl {
+    background-color: #f5f5f5;
+}
+
+.fs-wrap.multiple .fs-option {
+    position: relative;
+    padding-left: 30px;
+}
+
+.fs-wrap.multiple .fs-checkbox {
+    position: absolute;
+    display: block;
+    width: 30px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.fs-wrap.multiple .fs-option .fs-checkbox i {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #aeaeae;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.fs-wrap.multiple .fs-option.selected .fs-checkbox i {
+    background-color: rgb(17, 169, 17);
+    border-color: transparent;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAABMSURBVAiZfc0xDkAAFIPhd2Kr1WRjcAExuIgzGUTIZ/AkImjSofnbNBAfHvzAHjOKNzhiQ42IDFXCDivaaxAJd0xYshT3QqBxqnxeHvhunpu23xnmAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fs-optgroup-label {
+    font-weight: bold;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.hidden {
+    display: none;
+}
+.buttonAdd{
+  margin-left: 900px;
+  border-radius: 10px;
+  width:150px;
+  color: #FFFFFF;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: "alpha(opacity=0)";
+  font-size: 200px;
+  direction: ltr;
+  cursor: pointer;
+}
+
+.thumb {
+  height: 80px;
+  width: 100px;
+  border: 1px solid #000;
+}
+
+ul.thumb-Images li {
+  width: 120px;
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+  height: 120px;
+}
+
+.img-wrap {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+}
+
+.img-wrap .close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 100;
+  background-color: #d0e5f5;
+  padding: 5px 2px 2px;
+  color: #000;
+  font-weight: bolder;
+  cursor: pointer;
+  opacity: 0.5;
+  font-size: 23px;
+  line-height: 10px;
+  border-radius: 50%;
+}
+
+.img-wrap:hover .close {
+  opacity: 1;
+  background-color: #ff0000;
+}
+
+.FileNameCaptionStyle {
+  font-size: 12px;
+}
+.alert-success{
+  text-align: center;
+}
